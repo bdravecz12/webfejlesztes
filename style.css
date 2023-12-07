@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'sajat', sans-serif;
+    src: url('fontface/SandeMoreDemo-Regular.otf') format(otf),
+         url('fontface/SandeMoreDemo-Bold.otf') format(otf);}
+
+
+* {box-sizing: border-box;}
+body {font-family: 'sajat', sans-serif;
+  line-height: 1.6;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: url('kepek/background.jpg');}
+
+.cimalatt {font-size: 18px;
+  text-align: center;}
+
+h2 {color: white;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: center;}
+
+p {margin-bottom: 15px;
+    text-align: justify;}
+
+a {color: #007bff;
+    text-decoration: none;
+    font-weight: bold;}
+
+footer {text-align: center;}
+
+nav {text-align: center;
+    padding: 10px}
+
+nav a {color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;}
+
+nav a:hover {background-color: #555;}
+
+nav a#active {background-color: grey;}
+
+h1 {text-align: center;
+    padding: 10px;}
+
+div#section {margin-top: 20px;
+    width: 100%;}
+
+div#section2 {margin-top: 20px;
+    width: 100%;}
+
+.szoboszlaikep{ width: 35%;
+    float: right;
+    margin: 2%; padding:
+    auto; border-style:
+    solid; border-color:
+    black;
+    height: auto;}
+
+.liverpool {width:25%;
+    float: right;
+    margin: 2%; padding: auto;
+    height: auto;}
+
+table {margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: auto;}
+
+.kozep{text-align: center;}
+
+.tortenet{padding-left: 2px;
+    margin-left: 2px;
+    font-size: 17px;
+    height: auto;}
+
+.dominik {padding-left: 2px;
+    margin-left: 2px;
+    font-size: 20px;
+    height: auto;}
+
+div#cimek{text-align:
+    center; font-size: 30px;
+    float: right;
+    width: 50% !important;
+    height: auto;
+    margin-top: 2%;
+    padding-left: 2%;}
+
+div#images {margin-top: 2% !important;
+    margin-left: 10%;}
+div#quiz{text-align: center;}
+
+/*Mobile*/
+@media screen and (min-width: 600px)
+
+
+/*Tablet*/
+@media screen and (min-width: 768px)

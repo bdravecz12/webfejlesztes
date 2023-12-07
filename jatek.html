@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dravecz Barnabás">
+    <meta name="description" content="Szoboszlai Dominikot bemutató oldal">
+    <title>Vélemény</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="kepek/android-icon-36x36.png" type="image">
+</head>
+<body>
+    <h1>Szoboszlai Dominik
+        <p class="cimalatt"><em>Magyarország sikeres focistája, Liverpool játékosa</em></p>
+    </h1>
+    <nav>
+      <a href="beadando.html">Kezdőlap</a>
+      <a href="quiz.html">Dominik Quiz</a>
+      <a href="liverpool.html">Liverpool története</a>
+      <a href="galeria.html">Galéria</a>
+      <a id="active" href="jatek.html">Vélemény</a>
+      </nav>
+        <hr>
+        <form method="post" action="http://szamtud.uni-corvinus.hu/receive.php">
+            <table>
+              <tbody><tr>
+                <td class="cim" colspan="2"><p><strong>Vélemény Szoboszlai Dominikról</strong></p></td>
+              </tr>
+              <tr>
+                <td><p>
+                    <label>Név:
+                      <input type="text" name="nev" size="40">
+                    </label>
+                  </p>
+                  <p>
+                    <label>Email cím:
+                      <input type="email" name="email" size="34" value="">
+                    </label>
+                  </p>
+                  <p>
+                    <label>Mikor hallottál először Dominikról?<br>
+                      <select size="4" name="eloszor">
+                        <option value="liver">Liverpoolba történő igazolása után</option>
+                        <option value="salzburg">A Red Bull Salzburghoz történő igazolása után</option>
+                        <option value="magyar">Miután kinevezték a magyar válogatott csapatkapitányának</option>
+                        <option value="elott">Már az áttörő sikerei előtt is ismertem</option>
+                      </select>
+                    </label>
+                    <p>
+                        <label>Hogy látod, meddig lesz Dominik a sajtóhírek központjában?
+                            <br>
+                          <input type="date" name="sajtohirek" size="50">
+                        </label>
+                    </p>
+                  </p>
+                  <p>Dominik túl fiatal ekkora siker kezeléséhez?<br>
+                    <label>
+                      <input type="radio" name="siker" value="i">
+                      Igen</label>
+                    <label>
+                      <input type="radio" name="siker" value="n" checked="">
+                      Nem</label>
+                  </p></td>
+                <td>Milyen díjakat fog Dominik szerinted megkapni?<br>
+                  <label>
+                    <input type="checkbox" name="aranylabda" value="ON" checked="">
+                    Aranylabda</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="aranycipo" value="ON">
+                    Aranycipő</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="aranykesztu" value="ON" checked="">
+                    Aranykesztyű</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="puskas" value="ON">
+                    Puskás-díj</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="evjatekosa" value="ON" checked="">
+                    UEFA Az Év Játékosa</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="eletmu" value="ON">
+                    FIFA Életműdíj</label>
+                  <br>
+                  <br>
+                  Milyen mezszám illene Dominikhoz?
+                  <br>
+                  <label>
+                    <input type="number" min="0" max="100" step=" " name="mezszam">
+                  </label>
+                  <br>
+                  <br>
+                  Kérlek írd le röviden a véleményedet újdonsült világsztárunkról.
+                  <br>
+                  <textarea rows="1" cols="50"></textarea>
+              </tr>
+              <tr>
+                <td class="kozep" colspan="2"><input type="submit" value="Elküldés" name="kuld">
+                  <input type="reset" value="Alaphelyzet" name="alap"></td>
+              </tr>
+            </tbody></table>
+        <footer>Az oldal gyakorlásra szolgál.</footer>
+</body>
+</html>
